@@ -1,0 +1,31 @@
+.card
+    width: 100%
+    cursor: pointer
+
+.image
+    position: relative
+    background: url(/categ5.jpg) center/cover no-repeat
+    padding-top: 124%
+    border-bottom: 2px solid var(--accent1)
+
+.hurt
+    cursor: pointer
+    position: absolute
+    top: 15px
+    right: 15px
+    &:hover path:first-child
+        fill: #F40000
+    path
+        transition: .2s
+
+.flex
+    display: flex
+    gap: 7px
+    justify-content: space-between
+    margin-top: 27px
+    align-items: flex-end
+
+.price
+    font-size: 24px
+    font-weight: 700
+    color: var(--accent1)
